@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+  color: aliceblue;
+  backdrop-filter: brightness(0.5);
+  letter-spacing: 4px;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 20px 40px;
+  font-size: 25px;
+  border: 4px solid white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+  transition: 500ms;
+}
+
+.card {
+  width: 50%;
+  height: 100%;
+  top: 0;
+}
+
+.card.left {
+  position: absolute;
+  left: 0;
+  background-color: pink;
+  background-image: url("https://m.media-amazon.com/images/I/71GLMJ7TQiL._AC_SL1500_.jpg");
+  background-size: cover;
+}
+.card.right {
+  position: absolute;
+  right: 0;
+  background-color: lightblue;
+  background-image: url("https://images.samsung.com/is/image/samsung/p6pim/levant/sm-g991bzvdmea/gallery/levant-galaxy-s21-5g-g991-sm-g991bzvdmea-388257314?$2052_1641_PNG$");
+  background-size: cover;
+}
